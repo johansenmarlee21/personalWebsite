@@ -1,26 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React  , {useRef} from 'react';
+import Header from './components/Header';
+import ProfileContent from './components/ProfileContent/ProfileContent';
+import ProgrammingLanguages from './components/ProgrammingLanguages/ProgrammingLanguages';
+import ProjectPortfolio from './components/ProjectPortfolio/ProjectPortfolio';
+import './index.css';
+import OrganizationalExperiences from './components/OrganizationalExperiences/OrganizationalExperiences';
+import ContactList from './components/ContactList/ContactList';
 
-function App() {
-  return (
+
+
+const App: React.FC = () => {
+  const projectsRef = useRef<HTMLDivElement>(null);
+  const orgExperiencesRef = useRef<HTMLDivElement>(null);
+  const contactRef = useRef<HTMLDivElement>(null);
+
+  return(
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header 
+       projectsRef = {projectsRef}
+       orgExperiencesRef = {orgExperiencesRef}
+       contactRef = {contactRef}
+      />
+      <ProfileContent />
+      <ProgrammingLanguages />
+      <ProjectPortfolio ref={projectsRef}/>
+      <OrganizationalExperiences ref={orgExperiencesRef}/>
+
+      <ContactList ref={contactRef} />
     </div>
-  );
+  )
 }
 
 export default App;

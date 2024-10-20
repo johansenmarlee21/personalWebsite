@@ -1,13 +1,9 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 
 :root{
   font-size: 15px;
 }
+
 body {
   background-color: #161616;
   margin: 0;
@@ -23,7 +19,6 @@ code {
 }
 
 @media (max-width: 768px){
-  
   :root{
     font-size: 12px;
   }
@@ -36,5 +31,4 @@ code {
 }
 
 @media (max-width: 480px){
-  
 }
