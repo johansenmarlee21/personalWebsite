@@ -7,7 +7,7 @@ const projects = [
         image: "/images/project-photo-buzivest-dim.png",
         smallImage: ["/images/project-android.png"],
         languages: ["/images/logo-project-kotlin.png", "/images/logo-project-firebase.png"],
-        pdf: "/images/CV-Johansen Marlee.pdf"
+        pdf: "/images/project-1-pesonalWebsite.pdf"
     },
     {
         title: "Rubbylexion",
@@ -15,7 +15,7 @@ const projects = [
         image: "/images/project-photo-rubbylexion-dim.png",
         smallImage: ["/images/project-android.png"],
         languages: ["/images/logo-project-unity.png", "/images/logo-project-csharp.png"],
-        pdf: "/images/CV-Johansen Marlee.pdf"
+        pdf: "/images/project-2-personalWebsite.pdf"
     },
     {
         title: "Readwell",
@@ -23,7 +23,7 @@ const projects = [
         image: "/images/project-photo-readwell-dim.png",
         smallImage: ["/images/project-android.png"],
         languages: ["/images/logo-project-flutter.png", "/images/logo-project-firebase.png"],
-        pdf: "/images/CV-Johansen Marlee.pdf"
+        pdf: "/images/project-3-personalWebsite.pdf"
     },
     {
         title: "Willify",
@@ -31,15 +31,15 @@ const projects = [
         image: "/images/project-photo-willify-dim.png",
         smallImage: ["/images/project-android.png", "/images/project-web.png"],
         languages: ["/images/logo-project-html.png", "/images/logo-project-javascript.png", "/images/logo-project-css.png"],
-        pdf: "/images/CV-Johansen Marlee.pdf"
+        pdf: "/images/project-4-personalWebsite.pdf"
     },
     {
         title: "Personal Website",
-        description: "Willify is a responsive music streaming platform website designed with a focus on user experience across all devices. The platform features five distinct pages, including three main pages, crafted using HTML, CSS, and JavaScript. The development journey commenced with structuring and designing the primary UI in Figma. I managed every aspect of the website's development, ensuring a seamless and enjoyable experience for users on any device.",
+        description: "This project is a personal portfolio website developed using React and TypeScript to showcase my past works and experiences. The site features a sleek and interactive design, with Tailwind CSS used for responsive styling. The website was created to establish an online presence, highlight my projects, and provide potential employers or collaborators with quick access to my professional background.",
         image: "/images/project-photo-personalwebsite.png",
         smallImage: ["/images/project-android.png", "/images/project-web.png"],
         languages: ["/images/logo-project-react.png", "/images/logo-project-typescript.png"],
-        pdf: "/images/CV-Johansen Marlee.pdf"
+        pdf: "/images/project-5-personalWebsite.pdf"
     }
 ];
 
