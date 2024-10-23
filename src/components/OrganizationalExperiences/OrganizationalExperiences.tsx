@@ -47,11 +47,13 @@ const experiences = [
             {
                 title: "Staff of Fundraising Division at Natal Bersama KMK BINUS Greater Jakarta 2023",
                 description: [
+                    "Was responsible to seek funding sources for the event"
                 ]
             },
             {
                 title: "Staff of Event Division at Talkshow: 'Leading Like The Savior'",
                 description: [
+                    "Played part to arrange the main rundown of the event"
                 ]
             },
             

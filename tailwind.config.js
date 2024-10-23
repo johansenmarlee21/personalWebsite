@@ -36,7 +36,9 @@ module.exports = {
       'custom-sm': '540px',  // Custom small device
       'custom-sm-1': '320px', // Custom smaller device
       'custom-md': '900px',
-      'custom-sm-2': '400px',   // Custom medium device
+      'custom-sm-2': '400px',
+      'custom-xl': '1100px',
+      'custom-xl-2': '1380px',   
     }
   },
   plugins: [],

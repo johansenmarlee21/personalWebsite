@@ -50,7 +50,7 @@ const ProjectPortfolio = forwardRef<HTMLDivElement>((props, ref) => {
                 Check my latest projects!
             </h2>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-6 w-[95%] mt-5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 custom-xl:grid-cols-5 custom-xl-2:grid-cols-6 gap-6 w-[95%] mt-5">
                 {projects.map((project, index) => (
                     <div key={index} className="project-card bg-[#1F1F1F] border-2 border-[#444444] rounded-lg p-3 flex flex-col items-center mx-auto custom-sm-1:w-[250px] sm:w-[270px] md:w-auto">
                         <img className="project-card-bigimage w-full h-60 rounded-lg mb-4 border border-gray-600" src={project.image} alt={project.title} />
